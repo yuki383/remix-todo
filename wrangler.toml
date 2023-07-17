@@ -1,0 +1,6 @@
+
+
+[[ d1_databases ]]
+binding = "CFDB"
+database_name = "remix-todo-dev"
+database_id = "2350fbed-d113-4e44-9e47-606bf60470a8"
