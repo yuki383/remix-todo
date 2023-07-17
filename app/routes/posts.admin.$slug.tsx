@@ -62,7 +62,7 @@ export default function AdminSlug() {
   return (
     <main>
       <h2>Edit Post: {post.title}</h2>
-      <Form method="post">
+      <Form key={post.slug} method="post">
         <input type="hidden" name="slug" value={post.slug} />
         <p>
           <label>
