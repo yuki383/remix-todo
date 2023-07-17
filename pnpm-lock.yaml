@@ -16,6 +16,9 @@ dependencies:
   isbot:
     specifier: ^3.6.8
     version: 3.6.8
+  marked:
+    specifier: ^5.1.1
+    version: 5.1.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -36,6 +39,9 @@ devDependencies:
   '@remix-run/server-runtime':
     specifier: ^1.18.1
     version: 1.18.1
+  '@types/marked':
+    specifier: ^5.0.1
+    version: 5.0.1
   '@types/react':
     specifier: ^18.0.35
     version: 18.0.35
@@ -2485,6 +2491,10 @@ packages:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
       '@types/node': 20.4.2
+    dev: true
+
+  /@types/marked@5.0.1:
+    resolution: {integrity: sha512-Y3pAUzHKh605fN6fvASsz5FDSWbZcs/65Q6xYRmnIP9ZIYz27T4IOmXfH9gWJV1dpi7f1e7z7nBGUTx/a0ptpA==}
     dev: true
 
   /@types/mdast@3.0.12:
@@ -5562,6 +5572,12 @@ packages:
     resolution: {integrity: sha512-WWC0ZuMzCyDHYCasEGs4IPvLyTGftYwh6wIEOULOF0HXcqZlhwRzrK0w2VUlxWA98xnvb/jszw4ZSkJ6ADpM6Q==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /marked@5.1.1:
+    resolution: {integrity: sha512-bTmmGdEINWmOMDjnPWDxGPQ4qkDLeYorpYbEtFOXzOruTwUE671q4Guiuchn4N8h/v6NGd7916kXsm3Iz4iUSg==}
+    engines: {node: '>= 18'}
+    hasBin: true
+    dev: false
 
   /mdast-util-definitions@5.1.2:
     resolution: {integrity: sha512-8SVPMuHqlPME/z3gqVwWY4zVXn8lqKv/pAhC57FuJ40ImXyBpmO5ukh98zB2v7Blql2FiHjHv9LVztSIqjY+MA==}
