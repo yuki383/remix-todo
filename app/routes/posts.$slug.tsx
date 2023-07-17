@@ -23,7 +23,6 @@ export const loader = (async ({ params, context }) => {
 
 export default function PostSlug() {
   const { post, html } = useLoaderData<typeof loader>();
-  console.log(post);
   return (
     <main>
       <h1>Some Post: {post.title}</h1>

@@ -32,3 +32,11 @@ export async function createPost(ctx: AppLoadContext, post: Post) {
     .bind(post.slug, post.title, post.markdown)
     .run();
 }
+
+export async function updatePost(ctx: AppLoadContext, post: Post) {
+  await ctx.env.CFDB.prepare(
+    "update posts set title = ?, markdown = ? where slug = ?"
+  )
+    .bind(post.title, post.markdown, post.slug)
+    .run();
+}
